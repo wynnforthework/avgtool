@@ -163,14 +163,14 @@ module.exports = (appInfo) => {
     },
     autoUpdater: {
       enable: true,
-      windows: false, 
+      windows: true, 
       macOS: false, 
       linux: false,
       options: {
-        provider: 'generic', 
-        url: 'http://kodo.qiniu.com/'
+        provider: 'github', 
+        url: 'https://github.com/wynnforthework/avgtool/'
       },
-      force: false,
+      force: true,
     },
     javaServer: {
       enable: false,
